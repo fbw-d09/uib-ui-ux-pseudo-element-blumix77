@@ -2,6 +2,8 @@
     font-size: 62.5%;
 }
 
+/* Part 1 */
+
 .quote {
     list-style: none;
 }
@@ -25,26 +27,13 @@
     
 }
 
+.quote li::after {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png');
+}
 
 .quote li::before {
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 0.5rem;
-    width: 0.5rem;
-    content: '';
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png');
 }
-
-.quote li::after {
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 0.5rem;
-    width: 0.5rem;
-    content: '';
-    
-}
-
 
 .quote li::after {
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png');
@@ -54,61 +43,47 @@
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png');
 }
 
+/* Part 2 */
 
-.quote li::after {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png');
+.files li {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-.quote li::before {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png');
-}
-
-.pdf::after {
+.files::after {
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     height: 2rem;
     width: 2rem;
     content: '';
-    margin-left: 10px;    
-}
-
-.xls::after {
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 2rem;
-    width: 2rem;
-    content: '';  
-    margin-left: 10px;    
-}
-
-.doc::after {
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 2rem;
-    width: 2rem;
-    content: '';    
-    margin-left: 10px;  
+    margin-left: 0.8rem;  
+    position: relative;
+    top: 0.5rem;
 }
 
 .pdf::after {
     background-image: url('https://img.icons8.com/officel/64/000000/pdf.png');
+    margin-left: 1rem;
 }
 
 .xls::after {
     background-image: url('https://img.icons8.com/dusk/64/000000/ms-excel.png');
+    margin-left: 1.4rem;
 }
 
 .doc::after {
     background-image: url('https://img.icons8.com/dusk/64/000000/ms-word.png');
+    margin-left: 0.8rem;
 }
 
 .files a {
-    text-decoration: none;
+    text-decoration: none;  
 }
 
+/* Part 3 */
 
 .sandwich {
     display: block;

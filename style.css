@@ -105,15 +105,40 @@
     background-image: url('https://img.icons8.com/dusk/64/000000/ms-word.png');
 }
 
+.files a {
+    text-decoration: none;
+}
+
 
 .sandwich {
-    display: inline-block;
-    height: 100px;
-    width: 200px;
+    display: block;
+    border: 1px solid black;
+    margin-top: 2rem;
+    width: 150px;
+}
+
+.sandwich li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sandwich ul {
+    margin: 0;
+    padding: 0;
+}
+ 
+.sandwich .first::before {
     content: '';
-}
+    display: block;
+    height: 1rem;
+    background: linear-gradient(to right,#40baee, #65d410, #efff08);
+    }
 
-.sandwich::before {
-    background-color:aqua;
+.sandwich .last::after {
+    content: '';
+    display: block;
+    height: 1rem;
+    background: linear-gradient(to left,#40baee, #65d410, #efff08);
 }
-

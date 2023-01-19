@@ -16,7 +16,7 @@
 
 Verwende Pseudo-Elemente, um das unten gezeigte Mockup nachzubauen.
 
-![part-2](images/part-2.png)
+![part-2](imageFs/part-2.png)
 
 - Nach jedem Dateieintrag wollen wir den entsprechenden Dateityp als Symbol anzeigen
 
